@@ -1,0 +1,5 @@
+A Simple Spring Rest Application and it's configuration by using java file:
+Programs:
+* AppConfig.java
+* AppInit.java
+* ApplicationController.java

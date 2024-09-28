@@ -1,0 +1,1 @@
+A Simple Spring Rest Application and it's configuration by using java file:
