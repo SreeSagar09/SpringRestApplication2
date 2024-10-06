@@ -10,27 +10,47 @@ public class ApplicationController {
 	
 	@RequestMapping(path = "/get", method = RequestMethod.GET)
 	public String getMethod() {
-		return "From getMethod in ApplicationController";
+		try {
+			return "From getMethod in ApplicationController";
+		} catch (Exception e) {
+			return "Internal Server Error";
+		}
 	}
 	
 	@RequestMapping(path = "/post", method = RequestMethod.POST)
 	public String postMethod() {
-		return "From postMethod in ApplicationController";
+		try {
+			return "From postMethod in ApplicationController";
+		} catch (Exception e) {
+			return "Internal Server Error";
+		}
 	}
 	
 	@RequestMapping(path = "/put", method = RequestMethod.PUT)
 	public String putMethod() {
-		return "From putMethod in ApplicationController";
+		try {
+			return "From putMethod in ApplicationController";
+		} catch (Exception e) {
+			return "Internal Server Error";
+		}
 	}
 	
 	@RequestMapping(path = "/patch", method = RequestMethod.PATCH)
 	public String patchMethod() {
-		return "From patchMethod in ApplicationController";
+		try {
+			return "From patchMethod in ApplicationController";
+		} catch (Exception e) {
+			return "Internal Server Error";
+		}
 	}
 	
 	@RequestMapping(path = "/delete", method = RequestMethod.DELETE)
 	public String deleteMethod() {
-		return "From deleteMethod in ApplicationController";
+		try {
+			return "From deleteMethod in ApplicationController";
+		} catch (Exception e) {
+			return "Internal Server Error";
+		}
 	}
 	
 }
